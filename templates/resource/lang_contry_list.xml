@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<lang id="English" name="English"/>
+	<lang id="ara-AE" name="Arabic (United Arab Emirates)"/>
+	<lang id="eus-ES" name="Basque (Spain)"/>
+	<lang id="bul-BG" name="Bulgarian (Bulgaria)"/>
+	<lang id="cat-ES" name="Catalan (Spain)"/>
+	<lang id="zho-CN" name="Chinese Simplified (China)"/>
+	<lang id="zho-HK" name="Chinese Traditional (Hong Kong)"/>
+	<lang id="zho-SG" name="Chinese Simplified (Singapore)"/>
+	<lang id="zho-TW" name="Chinese Traditional (Taiwan)"/>
+	<lang id="hrv-HR" name="Croatian (Croatia)"/>
+	<lang id="ces-CZ" name="Czech (CZECH)"/>
+	<lang id="dan-DK" name="Danish (Denmark)"/>
+	<lang id="nld-NL" name="Dutch (Dutch)"/>
+	<lang id="eng-GB" name="English (England(UK))"/>
+	<lang id="eng-PH" name="English (Philippines)"/>
+	<lang id="eng-US" name="English (US)"/>
+	<lang id="est-EE" name="Estonian (Estonia)"/>
+	<lang id="fas-IR" name="Farsi (Iran)"/>
+	<lang id="fin-FI" name="Finnish (Finland)"/>
+	<lang id="fra-CA" name="French (Canada)"/>
+	<lang id="fra-FR" name="French (France)"/>
+	<lang id="glg-ES" name="Galician (Spain)"/>
+	<lang id="deu-DE" name="German (Germany)"/>
+	<lang id="ell-GR" name="Greek (Greece)"/>
+	<lang id="heb-IL" name="Hebrew (Israel)"/>
+	<lang id="hun-HU" name="Hungarian (Hungary)"/>
+	<lang id="isl-IS" name="Icelandic (Iceland)"/>
+	<lang id="ind-ID" name="Indonesian (Indonesia)"/>
+	<lang id="gle-IE" name="Irish (Ireland)"/>
+	<lang id="ita-IT" name="Italian (Italy)"/>
+	<lang id="kaz-KZ" name="Kazakh (Kazakhstan)"/>
+	<lang id="kor-KR" name="Korean (Korea)"/>
+	<lang id="lav-LV" name="Latvian (Latvia)"/>
+	<lang id="lit-LT" name="Lithuanian (Lithuania)"/>
+	<lang id="mkd-MK" name="Macedonian (Macedonia)"/>
+	<lang id="msa-MY" name="Malay (Malaysia)"/>
+	<lang id="nor-NO" name="Norwegian (Norway)"/>
+	<lang id="pol-PL" name="Polish (Poland)"/>
+	<lang id="por-BR" name="Portuguese (Brazil)"/>
+	<lang id="por-PT" name="Portuguese (Portugal)"/>
+	<lang id="ron-RO" name="Romanian (Romania)"/>
+	<lang id="rus-RU" name="Russian (Russia)"/>
+	<lang id="srp-RS" name="Serbian (Serbia)"/>
+	<lang id="slk-SK" name="Slovak (Slovakia)"/>
+	<lang id="slv-SI" name="Slovenian (Slovenia)"/>
+	<lang id="spa-ES" name="Spanish (Spain)"/>
+	<lang id="spa-US" name="Spanish (US)"/>
+	<lang id="swe-SE" name="Swedish (Sweden)"/>
+	<lang id="tha-TH" name="Thai (Thailand)"/>
+	<lang id="tur-TR" name="Turkish (Turkey)"/>
+	<lang id="ukr-UA" name="Ukrainian (Ukraine)"/>
+	<lang id="urd-PK" name="Urdu (Pakistan)"/>
+	<lang id="vie-VN" name="Vietnamese (Vietnam)"/>
+</languages>
