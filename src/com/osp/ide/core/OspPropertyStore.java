@@ -42,11 +42,11 @@ import com.osp.ide.IConstants;
 public class OspPropertyStore {
 
 	private static final String PT_OUT_DIR_PREF="PT Output ";
-	private static final String PT_OUT_DIR_DEFAULT="${project_loc}\\";
+	private static final String PT_OUT_DIR_DEFAULT="${project_loc}" + java.io.File.separatorChar;
 
 	private static final String PT_CERT_FILE_PREF="PT CertFile ";
-	private static final String PT_CERT_FILE_DEFAULT="${project_loc}\\";
-	private static final String PT_CERT_FILE_DEFAULTFILE="\\cert.cer";
+	private static final String PT_CERT_FILE_DEFAULT="${project_loc}" + java.io.File.separatorChar;
+	private static final String PT_CERT_FILE_DEFAULTFILE=java.io.File.separatorChar + "cert.cer";
 	
 	private static final String PT_CMD_ARGS_PREF="PT CmdArgs ";
 	private static final String PT_CMD_ARGS_DEFAULT="";

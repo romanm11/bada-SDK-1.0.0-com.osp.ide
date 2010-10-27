@@ -13,7 +13,7 @@ public class IConstants {
 	public static final String IMG_WIZARD_BG="icons/wizard/bada_wizard.png"; 
 	
 	public static final String FILE_SEP_FSLASH="/";
-	public static final String FILE_SEP_BSLASH="\\";
+	public static final String FILE_SEP_BSLASH="/";		//"\\";
 	public static final String COLON=":";
 	public static final String DOT=".";
 	
@@ -47,9 +47,9 @@ public class IConstants {
 //	public static final String PATH_SIMUAL_LIB = "\\lib\\WinSgpp";
 	//public static final String PATH_TOOLS = "\\IDE\\Tools";
 	//public static final String DIR_IDE = "\\IDE";
-	public static final String PATH_TOOLS = "\\Tools";
+	public static final String PATH_TOOLS = java.io.File.separatorChar + "Tools";
 	public static final String DIR_IDE = "";
-    public static final String PATH_BROKER = PATH_TOOLS + "\\Broker";
+    public static final String PATH_BROKER = PATH_TOOLS + java.io.File.separatorChar + "Broker";
 	
 	public static final String CONFIGSTORE_FILE=".badaprj";
 	

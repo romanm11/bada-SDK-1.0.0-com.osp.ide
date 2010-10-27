@@ -520,7 +520,7 @@ public class PackageArchiveExportOperation implements IRunnableWithProgress {
     	
 		String projectRoot = project.getLocation().makeAbsolute().toOSString() + IConstants.FILE_SEP_BSLASH;
 		String sdkHome = IdePlugin.getDefault().getSDKPath(project);
-		String sbuildRoot = sdkHome + IConstants.PATH_TOOLS + "\\sbuild";
+		String sbuildRoot = sdkHome + IConstants.PATH_TOOLS + java.io.File.separatorChar + "sbuild";
 		String repositoryRoot = ResourcesPlugin.getWorkspace().getRoot().getLocation().toString() + "/" + IConstants.DIR_REPOSITORY + "/" + project.getName() + "/" + packageData.getConfigName();
 		
 		

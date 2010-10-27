@@ -120,7 +120,7 @@ public class ProjectChangeListener implements IResourceChangeListener {
 	
 	private void notifySoureFileRemoved(IResource res)
 	{
-		String repositoryRoot = ResourcesPlugin.getWorkspace().getRoot().getLocation().toOSString() + "\\" + IConstants.DIR_REPOSITORY + "\\" + res.getProject().getName();
+		String repositoryRoot = ResourcesPlugin.getWorkspace().getRoot().getLocation().toOSString() + java.io.File.separatorChar + IConstants.DIR_REPOSITORY + java.io.File.separatorChar + res.getProject().getName();
 		
 		ICProjectDescription prjd = CoreModel.getDefault().getProjectDescription(res.getProject(), false);
 		if (prjd != null)
@@ -130,7 +130,7 @@ public class ProjectChangeListener implements IResourceChangeListener {
 			
 			for( int i = 0; i < configDescs.length; i++ )
 			{
-				String workingDirectory = repositoryRoot + "\\" + configDescs[i].getName();
+				String workingDirectory = repositoryRoot + java.io.File.separatorChar + configDescs[i].getName();
 				if( (new File(workingDirectory)).exists() )
 				{
 					FAPIAnalysis.FAnalysisDelete(workingDirectory, res.getName());

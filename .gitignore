@@ -1,0 +1,5 @@
+/@dot
+/build.xml
+/com.osp.ide_*.jar
+/javaCompiler...args
+@dot.log

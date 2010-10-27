@@ -161,10 +161,10 @@ public class DeviceConfigPage extends NewElementWizardPage implements ISDKPathCh
 			browseButton.setEnabled(false);
 			if( defaultManifestPath != null)
 			{
-				if( defaultManifestPath.endsWith("\\") )  
-					manifestText.setText(defaultManifestPath + "Samples\\Manifest.xml");
+				if( defaultManifestPath.endsWith(java.io.File.separator) )  
+					manifestText.setText(defaultManifestPath + "Samples" + java.io.File.separatorChar + "Manifest.xml");
 				else
-					manifestText.setText(defaultManifestPath + "\\Samples\\Manifest.xml");
+					manifestText.setText(defaultManifestPath + java.io.File.separatorChar + "Samples" + java.io.File.separatorChar + "Manifest.xml");
 			}
 			createButton.setSelection(false);
 			showBrowserButtonChanged();

@@ -17,6 +17,7 @@ import java.util.zip.CRC32;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.ui.internal.wizards.datatransfer.IFileExporter;
@@ -127,6 +128,13 @@ public class ZipFileExporter implements IFileExporter {
     	outputStream.putNextEntry(newEntry);
     	
     	outputStream.closeEntry();
-    }    
+    }
+
+	@Override
+	public void write(IContainer container, String destinationPath)
+			throws IOException {
+		// TODO Auto-generated method stub
+		throw new IOException( "not implemented" );
+	}    
     
 }

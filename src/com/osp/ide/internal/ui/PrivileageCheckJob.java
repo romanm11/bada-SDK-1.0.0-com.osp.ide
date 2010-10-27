@@ -98,7 +98,7 @@ public class PrivileageCheckJob extends Job {
 		String repositoryRoot = ResourcesPlugin.getWorkspace().getRoot().getLocation().toString() + "/" + IConstants.DIR_REPOSITORY + "/" + fProject.getName() + "/" + currentConfig.getName();
 		String projectRoot = fProject.getLocation().makeAbsolute().toOSString() + IConstants.FILE_SEP_BSLASH;
 		String sdkHome = IdePlugin.getDefault().getSDKPath(fProject);
-		String sbuildRoot = sdkHome + IConstants.PATH_TOOLS + "\\sbuild";
+		String sbuildRoot = sdkHome + IConstants.PATH_TOOLS + java.io.File.separatorChar + "sbuild";
 		
 		try {
 			dispList = FAPIAnalysis.FPrivilegeAnlaysis(sdkHome + IConstants.DIR_IDE,

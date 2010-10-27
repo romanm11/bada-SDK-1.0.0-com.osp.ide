@@ -286,7 +286,7 @@ public class WorkspaceUtils {
 		{
 			String sdkRoot = new Path (Platform.getInstallLocation().getURL().getPath()).removeLastSegments(1).toOSString();
 			
-			if( sdkRoot.endsWith("\\")) sdkRoot = sdkRoot.substring(0, sdkRoot.length()-1);
+			if( sdkRoot.endsWith(java.io.File.separator)) sdkRoot = sdkRoot.substring(0, sdkRoot.length()-1);
 			
 			return sdkRoot;
 			

@@ -21,7 +21,7 @@ public class BrokerUtils {
 		}
 		else
 		{
-			String path = IdePlugin.getDefault().getSDKPath(project) + "\\OspdSdk\\Template\\Tools\\Broker"; 
+			String path = IdePlugin.getDefault().getSDKPath(project) + java.io.File.separatorChar + "OspdSdk" + java.io.File.separatorChar + "Template" + java.io.File.separatorChar + "Tools" + java.io.File.separatorChar + "Broker"; 
 			File f = new File(path);
 		
 			if( f.exists() ) return f;
@@ -55,7 +55,7 @@ public class BrokerUtils {
 	static private String verifyOtherBrokerFile(IProject project)
 	{
 		String path = IdePlugin.getDefault().getSDKPath(project) 
-						+ "\\OspdSdk\\Template\\Tools\\Broker\\"
+						+ java.io.File.separatorChar + "OspdSdk" + java.io.File.separatorChar + "Template" + java.io.File.separatorChar + "Tools" + java.io.File.separatorChar + "Broker" + java.io.File.separatorChar
 						+ IConstants.BROKER_FILENAME;
 
 		File f = new File(path);
